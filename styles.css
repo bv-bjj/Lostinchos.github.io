@@ -14,12 +14,17 @@ a, a:hover, a:focus, a:active {
 
 /* nav */
 
+.logo {
+  width: fit-content;
+}
+
 nav {
   margin-top: 15px;
   display: flex;
   justify-content: space-around;
   margin-left: 0px;
   padding-left: 0px;
+  width: auto;
 }
 
 nav li {
@@ -41,7 +46,7 @@ nav li:hover {
 
 
 .navegador {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
 }
 
@@ -59,7 +64,7 @@ nav li:hover {
 /* contenedor1 */
 
 .contenedor1 {
-  background-image: url("https://image.freepik.com/vector-gratis/vista-montanas-azules-reflejo-lago_87633-164.jpg");
+  background-image: url("resources/montañas1.jpg");
   opacity: 90%;
   border-radius: 20px;
   height: 280px;
