@@ -245,3 +245,8 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+.insta {
+  width: 15px;
+  height: 15px;
+}
